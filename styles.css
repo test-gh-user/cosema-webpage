@@ -368,7 +368,7 @@ section .title::after {
     border-radius: 15px;
     color: #fff;
     background-color: #4c748d;
-    background: linear-gradient(to top, #fff 50%, #84a5b6 50%);
+    background: linear-gradient(to top, #fff 50%, #2f2f2f 50%);
     background-size: 100% 200%;
     transition: all .8s;
 }
@@ -609,7 +609,7 @@ section .title::after {
 
 /* footer section styling */
 footer {
-    background: #4c748d;
+    background: #2f2f2f;
     padding: 15px 20px;
     color: #fff;
     text-align: center;
