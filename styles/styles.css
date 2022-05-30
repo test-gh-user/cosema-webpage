@@ -802,6 +802,11 @@ footer span a:hover {
     /* background-size: cover; */
     /* font-family: 'Open Sans', sans-serif; */
   }
+  
+  
+  #work {
+    margin-top: 125px;
+  }
 
   .navbar .menu li a {
     display: block;
