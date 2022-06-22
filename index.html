@@ -80,24 +80,15 @@
                         sobretodo prevenir
                         accidentes e infortunios.
                     </p>
+
                 </div>
-                <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
-<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
-<script type="text/javascript">
-    /* curator-feed-default-feed-layout */
-    (function () {
-        var i,
-            e,
-            d = document,
-            s = "script";
-        i = d.createElement("script");
-        i.async = 1;
-        i.charset = "UTF-8";
-        i.src = "https://cdn.curator.io/published/877fc82f-8c81-470e-aaf3-e248cd9a4c2a.js";
-        e = d.getElementsByTagName(s)[0];
-        e.parentNode.insertBefore(i, e);
-    })();
-</script>
+                <div style="max-width: 1100px;">
+                    <div id="curator-feed-default-feed-layout"></div>
+                    <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+                </div>
+                <!-- Place <div> tag where you want the feed to appear -->
+
+
             </div>
         </div>
     </section>
@@ -189,7 +180,23 @@
     <footer class="page-footer">
         <span> <span class="far fa-copyright"></span>BIG-Development</a> 2022</span> | <span>Cosema Consultora</span>
     </footer>
+    <script type="text/javascript">
+        /* curator-feed-default-feed-layout */
+        (function () {
+            var i, e, d = document, s = "script"; i = d.createElement("script"); i.async = 1; i.charset = "UTF-8";
+            i.src = "https://cdn.curator.io/published/877fc82f-8c81-470e-aaf3-e248cd9a4c2a.js";
+            e = d.getElementsByTagName(s)[0]; e.parentNode.insertBefore(i, e);
+        })();
+        setTimeout(() => {
+            var asd = document.querySelector(".crt-logo")
+            asd.remove()
+            console.log(asd);
+        }, 2000);
 
+    </script>
+    <script>
+
+    </script>
     <script src="scripts.js"></script>
 </body>
 
