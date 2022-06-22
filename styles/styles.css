@@ -789,7 +789,9 @@ footer span a:hover {
 .home-link {
   float: left;
 }
-
+#carrousel {
+  max-width: 100%;
+}
 /* responsive media query start */
 
 @media (max-width: 1104px) {
@@ -803,8 +805,11 @@ footer span a:hover {
     /* background-size: cover; */
     /* font-family: 'Open Sans', sans-serif; */
   }
-  
-  
+
+  #carrousel {
+    margin-top: 50px;
+  }
+
   #work {
     margin-top: 125px;
   }
