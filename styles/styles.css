@@ -104,6 +104,24 @@ section .title::after {
   transform: translateX(-50%);
 }
 
+.platform-button{
+  background-color: #6CB760;
+  color: white;
+  border-radius: 9px;
+  border: none;
+  padding: 1.5%;
+  font-size: 29px;
+  margin-right: 20%;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-weight: bold;
+}
+
+.platform-button:hover{
+  box-shadow: 3px 3px gray;
+  background-color: green;
+}
+
 /* navbar styling */
 .navbar {
   position: fixed;
@@ -826,6 +844,12 @@ footer span a:hover {
     font-weight: 400;
     margin-left: 25px;
     transition: color 0.3s ease;
+  }
+  
+    .platform-button{
+    font-size: 20px;
+    margin-right: 50%;
+    font-weight: bold;
   }
 }
 
